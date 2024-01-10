@@ -1,0 +1,103 @@
+.body
+{
+    align-content: center;
+}
+.bg
+{
+    align-content: center;
+    margin-top: 0px;
+    width: 1560px;
+    height: 620px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+.name
+{
+    margin-top: -570px;
+    margin-bottom: 520px;
+    margin-left: 904px;
+    width: 272px;
+    height: 58px;
+}
+.title
+{
+    margin-top:-500px;
+    margin-left: 905px;
+    width: 500px;
+    height: 100px;
+    text-align: left;
+    font: normal normal 300 40px/47px roboto;
+    color: #3E3E3E;
+}
+.l1
+{
+    margin-top: 20px;
+    margin-left: 904px;
+    width: 260px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 25px/33px Roboto;
+    color: #3E3E3E;
+}
+.user
+{
+    margin-top: 20px;
+    margin-left:904px;
+    width: 429px;
+    height: 49px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+.login
+{
+    margin-top: 20px;
+    margin-left:904px;
+    width: 138px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    font-style: normal;
+    font-size:24px;
+    font-family:Roboto ;
+    color: #FFFFFF;
+}
+.member
+{
+    margin-top: 20px;
+    margin-left:904px;
+    width: 160px;
+    height: 20px;
+    text-align: left;
+    font: bold normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    opacity: 1;
+}
+.register
+{
+    margin-top: -20px;
+    margin-left:1032px; 
+    width: 88px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: bold normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #C8242F;
+    opacity: 1;
+}
+.image
+{
+    margin-top: 20px;
+    margin-left: 166px;
+    width: 576px;
+    height: 576px;
+    background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    opacity: 1;
+    border-radius: 50%;
+}
+.img1{
+    border-radius: 50%;
+}
