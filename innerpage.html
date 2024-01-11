@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/innerstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap">
+</head>
+
+<body>
+    <div class="main">
+        <div class="bgcolor">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid navbar">
+                    <a class="navbar-brand" href="#"><img class="menu" src="images/menu-bar.svg"></a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#"><img class="companylogo"
+                                        src="images/logo.svg"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img class="searchlogo" src="images/search-icon.svg"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="margin-top: 10px;">Search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img class="notification-icon"
+                                        src="images/notification-icon.svg"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img class="profilephoto" src="images/profile.png"></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    John Doe
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="flex-container">
+            <div class="sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item ">
+                        <a class="nav-link dash" href="#"><img class=imgs
+                                src="images/dashboard-default.svg">Dashboard</a>
+                    </li>
+                    <li class="nav-item ">
+                        <div class="analysis"><a class="nav-link" href="#"><img class=imgs
+                                    src="images/graph-active.svg"> Analysis</a></div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link dash" href="#"><img class=imgs src="images/inbox-default.svg"> Inbox</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link dash" href="#"><img class=imgs src="images/clock-default.svg"> History</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link dash" href="#"><img class=imgs src="images/user-default.svg"> Users</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link dash" href="#"><img class=imgs src="images/maintenance-default.svg">
+                            Maintanance</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link dash" href="#"><img class=imgs src="images/setting-default.svg"> Settings</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="heading">Analysis</div>
+                <div class="form-container">
+                    <form>
+                        <div class="onecolumn"><br><span class="oc">One Column</span><br><br>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" style="width: 1157px; height: 49px;"
+                                    aria-describedby="name" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <select style="width: 1157px; height: 49px; opacity: 0.5; border-radius: 5px;"
+                                    name="myDropdown">
+                                    <option value="option1" selected>Dropdown</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 ">
+                                <textarea id="message" name="message" rows="4" cols="154" placeholder="Multiple Line"
+                                    style="opacity: 0.5;"></textarea><br>
+                            </div>
+                        </div>
+                        <div class="twocolumn"><br><span class="oc">Two Column</span><br><br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" style="width: 563px; height: 49px;"
+                                            aria-describedby="name" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" style="width: 563px; height: 49px;"
+                                            aria-describedby="name" placeholder="Username">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="password" style="width: 563px; height: 49px;" class="form-control"
+                                            aria-describedby="password" placeholder="password">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <select style="width: 563px; height: 49px; opacity: 0.5; border-radius: 5px;"
+                                            name="myDropdown">
+                                            <option value="option1" selected>Dropdown</option>
+                                            <option value="option2">Option 2</option>
+                                            <option value="option3">Option 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="twocolumn"><br><span class="oc">Three Column</span><br><br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4 ">
+                                        <input type="text" class="form-control is-invalid" name="validate"
+                                            style="width: 364px; height: 47px;" id="validationServer03"
+                                            aria-describedby="validationServer03Feedback" placeholder="UI Designer">
+                                        <div id="validationServer03Feedback" class="invalid-feedback">
+                                            Enter valid data.
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input type="password" class="form-control" style="width: 364px; height: 47px;"
+                                            aria-describedby="name" placeholder="Password">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input class="form-control disabled" type="text"
+                                            aria-label="Disabled input example" value="johndoe" disabled>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="twocolumn"><br><span class="oc">Four Column</span><br><br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3 ">
+                                        <input type="text" class="form-control is-invalid" name="validate"
+                                            style="width: 266px; height: 47px;" id="validationServer03"
+                                            aria-describedby="validationServer03Feedback" value="UI Designer">
+                                        <div id="validationServer03Feedback" class="invalid-feedback">
+                                            Enter valid data.
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <input type="text" class="form-control" style="width: 266px; height: 47px;"
+                                        aria-describedby="basic-addon3 basic-addon4" placeholder="Name">
+                                        <div class="form-text" id="basic-addon4">Enter your fullname as per id.</div>
+                                    </div>
+                                <div class="col-lg-3">
+                                    <input class="form-control" style="width: 266px; height: 47px;" type="text"
+                                        aria-label="Disabled input example" value="johndoe" disabled>
+                                </div>
+                                <div class="col-lg-3">
+                                    <select style="width: 266px; height: 47px; opacity: 0.5; border-radius: 5px;"
+                                        name="myDropdown">
+                                        <option value="option1" selected>Select</option>
+                                        <option value="option2">Option 2</option>
+                                        <option value="option3">Option 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

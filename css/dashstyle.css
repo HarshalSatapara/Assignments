@@ -1,0 +1,265 @@
+.main
+{
+    width: 1560px;
+height: 1359px;
+}
+.bgcolor
+{
+    background-color: #FFFFFF;
+}
+.navbar
+{
+    background-color: #FFFFFF;
+}
+
+.companylogo
+{
+    margin-top:7px;
+    width: 142px;
+    height: 30px;
+}
+.searchlogo
+{
+    margin-top:12px;
+    width: 16px;
+    height: 16px;
+}
+.notification-icon
+{
+    margin-top:5px;
+    margin-left:1020px;
+    width: 22px;
+    height: 21px;
+}
+.profilephoto
+{
+    margin-left:20px;
+    width: 44px;
+    height: 44px;
+}
+.imgs
+{
+    width: 18px;
+    height: 18px;
+}
+.flex-container
+{
+    display: flex;
+}
+.dashboard
+{
+    background-color: #FFF3F4;
+    width: 243px ;
+    font: normal normal 16px/21px Roboto;
+    border-radius: 5px;
+    color: #C8242F;
+}
+.sidebar
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left:20px;
+    width: 242px;
+    height: 1279px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.dash
+{
+    background-color: #FFFFFF;
+    font: normal normal 16px/21px Roboto;
+    color: #3E3E3E;
+    padding-top:17px;
+}
+.db
+{
+    margin-top:4%;
+    margin-left: 5%;
+    width: 146px;
+    height: 39px;
+    text-align: left;
+    font: normal normal medium 30px/39px Roboto;
+    color: #000000;
+}
+.productlist
+{
+    width: 219px;
+    height: 116px;
+}
+.numbers
+{
+    margin-top: 12%;
+    background-color: #FFFFFF;
+    font-size: 25px;
+    height: 39px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+.navbg
+{
+    background-color: #FFFFFF;
+    margin-top:5%;
+    margin-left:20%;
+    width: 175px;
+    height: 116px;
+    border-radius: 5%;
+}
+.listel
+{
+    margin-left: 29%;
+    margin-bottom: 21%;
+    width: 115px;
+    height: 20px;
+    background-color: #FFFFFF;
+}
+.lg
+{
+    background-color: #FFFFFF;
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 33px;
+    height: 33px;
+}
+.graph
+{
+    background-color: #FFFFFF;
+    width:802px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.sale
+{
+    background-color: #FFFFFF;
+    font-size:22px;
+    font-weight: bold;
+}
+.weekly
+{
+    background-color: #FFFFFF;
+    margin-left: 527px;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+.monthly
+{
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+.yearly
+{
+    background-color: #FFFFFF;
+    color: #C8242F;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+.datagraph
+{
+    background-color: #FFFFFF;
+    margin-top: 5px;
+}
+.graph-pie
+{
+   display: flex;
+}
+.piechart
+{
+    margin-top: 4%;
+    margin-left: 2%;
+    background-color: #FFFFFF;
+    display: flex;
+    width: 385px;
+    height: 398px;
+}
+.sbc
+{
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: #FFFFFF;
+    font-family:Roboto;
+    color:#3E3E3E;
+    font-weight: 600;
+    font-size: 22px;
+    height: 50px;
+    width: 300px;
+}
+.pie-data
+{
+    height: 250px;
+    width: 300px;
+    margin-top: -7%;
+    margin-left: 0%;
+    background-color: #FFFFFF;
+}
+.dot {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.us{
+    margin: 5px;
+}
+.russia{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.canada{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.india{
+    margin-top: 5px;
+    margin-left:140px;
+}
+.invoices
+{
+    background-color: #FFFFFF;
+    font-family:Roboto;
+    color:#3E3E3E;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 88px;
+}
+.viewall
+{
+    color: #C8242F;
+    margin-left: 935px;
+    margin-top: 5px;
+}
+.heading
+{
+    color: #ADADAD;
+    font: normal normal 15px/20px Roboto;
+    opacity: 0.5;
+}
+.paid
+{
+    width: 60px;
+    height: 26px;
+    background: #EBFFEF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font: normal normal 15px/20px Roboto;
+    color: #3CDD5F;
+}
+.failed
+{
+    width: 70px;
+    height: 26px;
+    background: #FFF5F5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font:normal normal 15px/20px Roboto;
+    color: #FF4545;
+}
+.pending
+{
+    width: 80px;
+    height: 26px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font:normal normal 15px/20px Roboto;
+    color: #BABABA;
+}
+  
